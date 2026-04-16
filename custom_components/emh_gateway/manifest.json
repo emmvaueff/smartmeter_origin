@@ -1,0 +1,17 @@
+{
+    "domain": "emh_gateway",
+    "name": "EMH Gateway",
+    "version": "1.0.0",
+    "documentation": "https://example.com/emh_gateway",
+    "requirements": [
+        "httpx>=0.27.0"
+    ],
+    "codeowners": [
+        "@yourname"
+    ],
+    "config_flow": true,
+    "iot_class": "local_polling",
+    "loggers": [
+        "emh_gateway"
+    ]
+}

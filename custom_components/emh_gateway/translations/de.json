@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "EMH Gateway einrichten",
+        "description": "Bitte Zugangsdaten und URL des Smartmeters eingeben.",
+        "data": {
+          "url": "API-URL",
+          "username": "Benutzername",
+          "password": "Passwort"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zum Smartmeter nicht möglich.",
+      "invalid_auth": "Benutzername oder Passwort falsch.",
+      "unknown": "Ein unbekannter Fehler ist aufgetreten."
+    },
+    "abort": {
+      "already_configured": "Dieses Smartmeter wurde bereits hinzugefügt."
+    }
+  }
+}
